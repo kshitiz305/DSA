@@ -16,7 +16,9 @@ def combination(lis,target_number):
 	find_combinations(0, lis, [], answer, target_number)
 	return answer
 
+from itertools import combinations
 
 
 
-print(combination([1,2,3,4],2))
+print(combination([1,1,4],2))
+print(list(combinations([1,1,4],2)))
