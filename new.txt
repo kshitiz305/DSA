@@ -1,0 +1,27 @@
+function of dictionary setdefault to set a value if not present and then add the value if present.
+
+we use index and the second last index of a list by using total - index - 1
+                                                            10 - 0 -1 (the last index)
+BFS -- QUEUE
+when we are adding to the queue we are first marking it as visited
+when we are removing from the queue we are adding it to the final list or the bfs.
+
+
+DFS - recursion
+
+
+
+to create a multi dimentional array we use list comprehension
+
+
+        signifies the number of rows
+                ||
+[[0]*4    for i in range(3)]
+   ||
+   This signifies the number of elements in each row
+
+here there are 4 elements in each row  and the number of rows is 3 defined by the range
+
+[[0,0,0,0],
+[0,0,0,0],
+[0,0,0,0]]
